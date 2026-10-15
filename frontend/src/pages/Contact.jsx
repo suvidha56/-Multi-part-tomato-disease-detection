@@ -64,10 +64,7 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="pt-4 border-t border-slate-100 text-xs text-slate-500 space-y-2">
-              <p><strong>Evaluation:</strong> College Final Year Project & IEEE Demonstration</p>
-              <p><strong>Backend Architecture:</strong> Flask REST API + MongoDB Database Connector</p>
-            </div>
+           
           </div>
 
           {/* Right: Contact Form */}

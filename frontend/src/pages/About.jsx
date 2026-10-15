@@ -17,7 +17,7 @@ export const About = () => {
         <div className="bg-white rounded-2xl border border-slate-200 p-8 shadow-xs space-y-4">
           <SectionTitle title="Project Introduction" />
           <p className="text-sm text-slate-600 leading-relaxed">
-            This application is a specialized agricultural AI system developed for final-year engineering project demonstration and IEEE presentation. It leverages deep convolutional neural networks to identify tomato plant diseases across multiple plant parts and provides actionable treatment plans.
+            This application is a specialized agricultural AI system.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export const About = () => {
           <div className="space-y-2">
             <span className="text-xs font-mono font-bold text-emerald-400 uppercase tracking-widest">Project Ownership</span>
             <h3 className="text-2xl font-bold">Team Name: Agri AI</h3>
-            <p className="text-xs text-slate-300">Department of Computer Science / Information Technology Engineering</p>
+       
           </div>
 
           <div className="mt-6 md:mt-0 flex items-center space-x-3 bg-white/10 px-5 py-3 rounded-xl border border-white/20">

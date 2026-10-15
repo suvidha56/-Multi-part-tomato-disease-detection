@@ -84,9 +84,7 @@ export const Home = () => {
                   </div>
                   <div className="text-lg font-bold text-white">Tomato Leaf Classifier</div>
            
-                  <div className="inline-block bg-emerald-500 text-slate-950 font-bold text-xs px-3 py-1 rounded-full mt-2">
-                    Model Online
-                  </div>
+                  
                 </div>
               </div>
             
@@ -96,40 +94,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* PROJECT OVERVIEW */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 shadow-xs">
-          <SectionTitle
-            title="Project Overview"
-            subtitle="Understanding tomato disease identification and actionable AI guidance."
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-slate-600 leading-relaxed">
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <p><strong className="text-slate-800">Agricultural Importance:</strong> Tomato crops are vulnerable to diverse fungal, bacterial, viral pathogens, and pest infestations that severely diminish crop yield.</p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <p><strong className="text-slate-800">Early Detection:</strong> Timely identification enables targeted intervention before foliage loss, fruit damage, or disease spreading occurs.</p>
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <p><strong className="text-slate-800">Multi-Part Plant Analysis:</strong> System supports multi-part input (Leaf, Fruit, Stem) for comprehensive diagnostic coverage.</p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <p><strong className="text-slate-800">Decision Fusion & Reports:</strong> Combines predictions and outputs actionable chemical, organic, and preventive treatment plans with downloadable PDF reports.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* KEY FEATURES */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
@@ -175,26 +140,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* TECHNOLOGY SECTION */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionTitle
-          title="Technology Stack"
-          subtitle="Built using industry-standard machine learning and web frameworks."
-        />
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {techs.map((t, idx) => (
-            <div key={idx} className="bg-white rounded-xl border border-slate-200 p-4 text-center shadow-xs">
-              <div className="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold mx-auto mb-2 text-sm">
-                {t.name[0]}
-              </div>
-              <h4 className="font-bold text-slate-900 text-sm">{t.name}</h4>
-              <p className="text-[10px] text-slate-500 mt-1">{t.role}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
+     
     </div>
   );
 };

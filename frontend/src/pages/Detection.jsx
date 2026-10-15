@@ -45,7 +45,7 @@ export const Detection = () => {
             type="leaf"
             title="LEAF IMAGE"
             description="Upload tomato leaf photo for DenseNet121 classification."
-            badgeText="Primary Classifier"
+           
             modelName="DenseNet121 (Active)"
             file={images.leaf}
             previewUrl={previews.leaf}
@@ -60,7 +60,7 @@ export const Detection = () => {
             description="Upload tomato fruit photo for fruit defect & rot detection."
             // badgeText="YOLOv8 Architecture"
             // modelName="YOLOv8-Ready"
-            badgeText="YOLO11s Classifier"
+            
             modelName="YOLO11s (Active)"
             file={images.fruit}
             previewUrl={previews.fruit}
@@ -73,7 +73,7 @@ export const Detection = () => {
             type="stem"
             title="STEM IMAGE"
             description="Upload tomato stem photo for vascular wilt detection."
-            badgeText="YOLOv8 Architecture"
+       
             modelName="YOLOv8-Ready"
             file={images.stem}
             previewUrl={previews.stem}

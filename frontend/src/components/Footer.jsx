@@ -55,9 +55,7 @@ export const Footer = () => {
                   kdeeksha918@gmail.com
                 </a>
               </div>
-              <p className="text-xs text-slate-500 pt-2">
-                Final Year Engineering Project Demonstration & IEEE Presentation.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -66,7 +64,7 @@ export const Footer = () => {
           <p>© 2026 Agri AI Project. All rights reserved.</p>
           <div className="flex items-center space-x-2 mt-4 md:mt-0">
             <ShieldCheck className="w-4 h-4 text-emerald-500" />
-            <span>Academic Research Project & IEEE Demonstration</span>
+         
           </div>
         </div>
       </div>
