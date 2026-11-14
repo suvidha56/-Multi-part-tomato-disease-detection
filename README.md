@@ -45,6 +45,7 @@ Frontend runs at: http://localhost:3000
 - POST /api/report - ReportLab PDF report download generator.
 - POST /api/contact - Submit contact message.
 
-## Team
-- **Team Name**: Agri AI
-- **Contact Email**: kdeeksha918@gmail.com
+## Project Maintainer
+
+- **Maintainer:** Suvidha Pednekar
+- **GitHub:** [suvidha56](https://github.com/suvidha56)
